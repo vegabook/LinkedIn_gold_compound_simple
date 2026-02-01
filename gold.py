@@ -8,7 +8,7 @@ from pathlib import Path
 
 imgdir = Path(__file__).parent / "images"
 imgdir.mkdir(exist_ok=True)
-datadir = Path(__file__).parent / "data"
+datadir = Path(__file__).parent / "typst"
 
 gold = pl.read_csv(datadir / "gold.csv")
 
